@@ -4,4 +4,4 @@
             
 2) Space (" ");---> command line condidered " " as one argument.
 
-3) strings.Join(os.Args[1:], "&&")--> Take arguments from user in CLI and after every arguments it adds  '&&'.
+3) strings.Join(os.Args[1:] , "&&")--> Take arguments from user in CLI and after every arguments it adds  '&&'.
